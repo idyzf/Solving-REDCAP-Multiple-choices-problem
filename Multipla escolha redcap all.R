@@ -1,6 +1,6 @@
 library(openxlsx)
 library(dplyr)
-
+rm(list=ls())
 clinical_features<- read.xlsx("clinical_v4.xlsx")
 names(clinical_featues)
 '%ni%' <- Negate("%in%") 
